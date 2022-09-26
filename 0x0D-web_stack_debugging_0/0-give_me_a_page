@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-# Code to get Apache to run on the container and to return a page containing Hello Holberton when querying the root of it
+# Set up Apache server
+# IP="$(curl ifconfig.me)"
 
+# Set ServerName to IP
+# sudo sed -i "s/#ServerName www.example.com/ServerName $IP/" /etc/apache2/sites-available/000-default.conf
+
+# Start Apache
 sudo service apache2 start
